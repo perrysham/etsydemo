@@ -1,0 +1,30 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+body {
+	background-color: #f5f5f1;
+	color: #333333;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar-default{
+	background-color: #efefeb;
+}
+
+.navbar-default .navbar-brand {
+	font-family: guardian-egyppt, georgia, serif;
+	font-weight: 400;
+	color: #d5641c;
+	font-size: 30px;
+}
+
+.navbar-default .navbar-nav > li > a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+	color: #0192b5;
+}
+
+.center {
+	text-align: center;
+}

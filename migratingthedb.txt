@@ -1,0 +1,8 @@
+Migrating DB
+
+1)Create listing
+	rails generate scaffold Listing name:string description:text price:decimal
+
+2)rake db:migrate
+
+3)restart server
