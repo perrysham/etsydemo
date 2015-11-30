@@ -13,6 +13,9 @@ gem 'bootstrap-sass', '~> 3.3.5'
 gem 'sass-rails', '>= 3.2'
 
 gem "paperclip", "~> 3.5.3"
+gem "paperclip-dropbox", ">= 1.1.7"
+
+gem "figaro"
 
 gem 'rails_12factor', group: :production
 gem 'pg', group: :production
