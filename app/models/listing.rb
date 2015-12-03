@@ -7,7 +7,4 @@ class Listing < ActiveRecord::Base
 		:dropbox_credentials => Rails.root.join("config/dropbox.yml"),
 		:path => ":style/:id_:filename"
 	end
-
-  
-
 end
